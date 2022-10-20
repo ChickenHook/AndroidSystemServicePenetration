@@ -1,3 +1,3 @@
 <resources>
-    <string name="app_name">androidTest</string>
+    <string name="app_name">Parcel OOM Bug</string>
 </resources>
