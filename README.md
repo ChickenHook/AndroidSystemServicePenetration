@@ -4,6 +4,7 @@ This project is a template for using ChickenHook to create some crazy android ha
 
 # APK Download
 
+[APK Download](https://github.com/ChickenHook/AndroidSystemServicePenetration/releases/download/1.0/ParcelOOMBug.apk)
 
 # Video description
 
