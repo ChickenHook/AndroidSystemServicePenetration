@@ -5,13 +5,14 @@ This project is a template for using ChickenHook to create some crazy android ha
 # APK Download
 
 
-# Video descriptin
+# Video description
 
 [![](http://img.youtube.com/vi/-_be1LBz7eA/0.jpg)](http://www.youtube.com/watch?v=-_be1LBz7eA "Description video")
 
 # Bug / Exploit documentation
 
-https://androidreverse.wordpress.com/2022/10/19/parcel-java-oom-exploit/?preview_id=309&preview_nonce=a3138eeb6f&preview=true
+
+[Online Documentation](https://androidreverse.wordpress.com/2022/10/19/parcel-java-oom-exploit/?preview_id=309&preview_nonce=a3138eeb6f&preview=true)
 
 ## Donate
 
