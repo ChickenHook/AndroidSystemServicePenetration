@@ -1,4 +1,4 @@
-This app is a demonstartion of a new exploit which manipulates an Parcel object / Binder event in a way that lets the various of Android Services die. This can also cause all other system services to die, depending on the service you select.
+This app is a demonstration of a new exploit which manipulates an Parcel object / Binder event in a way that lets the various of Android Services die. This can also cause all other system services to die, depending on the service you select.
 
 The app allows you to check whether a device is vulnerable to the exploit. It is not intended to do any harm, it serves the purpose of a demo to show what the exploit looks like without abusing it.
 
