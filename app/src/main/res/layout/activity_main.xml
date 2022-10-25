@@ -24,7 +24,31 @@
         android:layout_centerInParent="true"
         android:text="START" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/github"
+
+            android:id="@+id/github"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/donate"
+
+            android:id="@+id/support"
+            />
+    </LinearLayout>
+
 </RelativeLayout>
+
+
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
