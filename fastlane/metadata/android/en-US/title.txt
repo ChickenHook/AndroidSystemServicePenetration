@@ -1,1 +1,1 @@
-Parcel.java Exploit - Pentest the Android Parcel/Binder protocol
+Parcel.java Exploit - Pentest the Android IPC
