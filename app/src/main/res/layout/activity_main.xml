@@ -5,23 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="org.chickenhook.parcelexploittester.MainActivity">
 
-    <Button
-        android:id="@+id/package_manager_attack"
-        android:layout_width="wrap_content"
+    <Spinner
+        android:id="@+id/serviceSelector"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PackageManagerCrash" />
+        android:spinnerMode="dropdown"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <Button
-        android:id="@+id/clipboard_manager_crash"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ClipboardManagerCrash" />
+        android:id="@+id/start_button"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/button_with_state"
+        android:layout_centerInParent="true"
+        android:text="START" />
 
-    <Button
-        android:id="@+id/service_manager_crash"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ServiceManagerCrash" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/github"
+
+            android:id="@+id/github"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/donate"
+
+            android:id="@+id/support"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
